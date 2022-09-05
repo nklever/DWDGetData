@@ -237,7 +237,7 @@ class GetStaticFiles(GetFile):
                 yield (indx, basename, content)
 
 
-__all__ = ['GetUpdatedFiles','GetFile']
+__all__ = ['GetUpdatedFiles','GetStaticFiles','GetFile']
 
 if __name__ == "__main__":
     import argparse
